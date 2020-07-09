@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resistration</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body
+		{
+			background-image:url(vote.jpg);
+			background-size:cover;
+			background-repeat:no-repeat;	
+			margin:0;
+			/*padding:0;*/
+			font-family:Arial;
+		}
+		#grad1 {
+
+    height: 150px;
+   /* background:  #4682B4; /* For browsers that do not support gradients */    
+    /*background: -webkit-linear-gradient(left top, #4682B4 20%, #000066 100%); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(bottom right, #4682B4 20%, #000066 100%); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(bottom right, #4682B4 20%, #000066 100%); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to bottom right, #4682B4 20%, #000066 100%); /* Standard syntax (must be last) */
+
+     /*height: 200px;*/
+    background: -webkit-linear-gradient(left,#405580 2%, #000066 100%;) /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #405580 2%, #000066 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #405580 2%, #000066 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #405580 2%, #000066 100%); /* Standard syntax (must be last) */
+   
+    }
+    /*#4682B4 #000066*/
+.image
+{
+	margin-top: 10px;
+	float: left;
+	padding-left: 15px;
+}
+.ECI
+{
+	
+	/*background-color: gray;*/
+	font-size: 25px;
+	height: 30px;	
+	padding-right: 100px; 
+	
+}
+
+		
+		.register
+		{
+			/*border:2px #ff267e groove;*/
+			margin:120px 5px 15px 350px;
+			/*position:absolute;*/
+			width:400px;
+			height: 560px;
+			box-shadow:0px 8px 16px 0px rgba(0,0,0,0.9);
+			padding:80px 40px;
+			padding-top: 70px;
+			/*margin-top:150px;*/
+			background-color: (0,0,0,0.4);
+			border-radius:15px;
+			-webkit-border-radius:15px;
+			-o-border-radius:15px;
+			-moz-border-radius:15px;
+			box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+			background:rgba(0,0,0,0.5);
+		}
+
+		.user
+		{
+			width: 150px;
+			height: 150px;
+			/*overflow: hidden;*/
+			position: absolute;
+			top:calc(-100px/2);
+			top:calc(50% -50px);
+			margin-top: 275px;
+			margin-left: 125px;
+		}
+		
+		h1
+		{
+			margin:0 0 30px 0;
+			padding:15px;
+			color:#ff267e;
+			text-align:center;
+		}
+		
+		input
+		{
+			width:100%;
+			margin-bottom:10px;
+		}
+		
+		input[type=text],input[type=text],input[type=number],input[type=text],input[type=date],input[type=number],input[type=email],input[type=text],input[type=text],input[type=number]
+		{
+			border:none;
+			outline:none;
+			border:2px #fff dotted;
+			background:transparent;
+			border-radius:20px;
+			box-sizing:border-box;
+			color:#FEFFFF;
+			font-size:14px;
+			font-weight: bolder;
+			padding:5px;
+			text-align:center;
+		}
+		/*
+		.radio-label 
+		{
+    		float: left;
+    		margin-right: 3%;
+		}
+		.radio-input 
+		{
+    		float: left;
+		}
+		fieldset
+		{
+    		text-align: center;
+		}
+		div 
+		{
+    		display: inline-block;
+    		margin: auto;
+    		border: 1px solid black;
+		}
+		*/
+		input[type="radio"]
+		{
+			opacity:100%;
+			width:10px;
+			margin-left: 80px;
+			color:#FEFFFF;
+			padding-left: 50px;
+		}
+		label[for="male"],label[for="female"]
+		{
+			margin-bottom:10px;
+			display:inline-block;
+			padding-left: 0px;
+			padding-right: 30px;
+			/*background: url(check.png) no-repeat;
+			background-position: 0 -32px;*/
+			line height:24px;
+			color:#FEFFFF;
+			cursor:pointer;
+			/*text-align: center;*/
+		}
+		input:checked + label[for="male"],
+		input:checked + label[for="female"]
+		{
+			/*background-position: 0 0;*/
+			color:#ce1010;
+		}
+
+		*::-webkit-input-placeholder 
+		{
+    		color: white;
+		}
+		*:-moz-placeholder 
+		{
+    		color: white;
+		}
+		*::-moz-placeholder 
+		{
+    		color: white;
+		}
+		*:-ms-input-placeholder {
+   			color: white;
+		}
+
+		input[type=Submit]
+		{
+			border:none;
+			outline:none;
+			padding:10px;
+			margin-top: 30px;
+			color:#fff;
+			font-size:20px;
+			font-family:Arial;
+			background:#ff267e;
+			cursor:pointer;
+			border-radius:20px;
+		}
+		
+		input[type=Submit]:hover
+		{
+			bakground:#efed40;
+			color:#262626;
+		}
+
+		<div style="border:1px solid red;float:left">
+	   		<input type="radio" />
+		</div>
+
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div id="grad1">
+	
+	<div class="image">
+		<img src="D:\HTMLANDCSS\REPS\Election_Commission_of_India_Logo.png" 
+		alt="ECI logo" style="width:175px;height:106px;">
+	</div>
+	<div class="ECI">
+		<center>
+		<h1><font face="Times New Roman" style="color: white;">Election Commission of India</font></h1>
+		</center>
+	</div>
+</div>
+<div class="divider" style="background-color: #36486b;
+	height: 5px ;" ></div>
+
+
+<a href="index.html" ><button style="font-size:24px"><i class="fa fa-angle-double-left"></i> Home</button>
+
+
+
+
+<div class="register">
+	<img src="image/register1.png" class="user">
+	<h1>Register Here</h1>
+	<form>
+	
+		<input type="text" placeholder="First Name" first name="">
+		<input type="text" placeholder="Last Name" last name="">
+		<input type="number" placeholder="Aadhar Card Number" aadhar card number="">
+		<input type="text" placeholder="Permanent Address" permanent address="">
+		<input type="radio" id="male" name="gender" />
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" />
+		<label for="female">Female</label>
+		<input type="date" placeholder="Date of Birth" date of birth="">
+		<input type="number" placeholder="Contact Number" contact number="">
+		<input type="email" placeholder="Email ID" email id="">
+		<input type="text" placeholder="Constituency" constituency="">
+		<input type="text" placeholder="Voter ID" voter id="">
+		<input type="Submit" value="Submit" name=""> 
+	</form>
+	</div>
+</body>
+</html>
